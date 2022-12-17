@@ -14,11 +14,8 @@ body {
 
 
 /*** navbar ***/
-.navbar .navbar-nav .nav-link {
-	font-family: 'Julius Sans One', 'Open Sans', sans-serif;
-	font-size: larger;
-	font-weight: 700;
-	color: #61559f;
+.navbar {
+	background-color: #cdcdcd;
 }
 .nav li a {
 	font-family: 'Julius Sans One', 'Open Sans', sans-serif;
@@ -33,9 +30,9 @@ body {
 	color:#9b9fa1;
 }
 .title-h1 {
-	height: 1000px;
+	height: 100vh;
 	text-align: center;
-	padding-top:  200px;
+	padding-top:  150px;
 }
 
 .home-bg {
@@ -44,6 +41,9 @@ body {
 	background-position: center center;
 	background-size: cover;
 	background-attachment: fixed;
+}
+.signature {
+	float: right;
 }
 .about-bg {
 	background-image: url("img/LE/about-bg-01.jpg");
