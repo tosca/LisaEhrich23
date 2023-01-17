@@ -68,6 +68,7 @@ body {
 	background-position: center right;
 	background-size:cover;
 	background-attachment:fixed;
+	background-attachment: local;
 }
 .bd-highlight {
 	background-color: rgb(240 255 255 / 27%);
