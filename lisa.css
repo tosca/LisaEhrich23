@@ -1,4 +1,10 @@
+html {
+	height: 100vh;
+}
 body {
+	height: 100%;
+	width: 100%;
+	position: relative;
 	display: block;
 	font-family: "Quicksand", sans-serif;
 	color:  #2d333c;
@@ -7,11 +13,9 @@ body {
 	margin-right: auto;
 }
 .bg-grey {
-	background-color: #adb5bd;
-	background-color: #dcdbdd;
+	background-color: #e7e7e7;
 }
 .bg-blue {
-	background-color: #c0cedd;
 	background-color: #becad8;
 }
 .lisa {
@@ -29,43 +33,45 @@ body {
 
 /*** navbar ***/
 .navbar {
-	background-color: #cdcdcd;
+	background-color: #ececec;
 }
 .navbar-brand img{
-	width: 200px;
-}
-.nav li a {
-	font-family: 'Julius Sans One', 'Open Sans', sans-serif;
-	font-size: 15px;
-	font-weight: 700;
-	color: #88dfff;
+	width: 180px;
 }
 .nav-link {
 	color: #529a95;
-	font-size: 18px;
+	font-size: 17px;
+}
+.nav li a {
+	font-family: 'Julius Sans One', 'Open Sans', sans-serif;
+	font-size: 16px;
+	font-weight: 700;
+	color: #88dfff;
 }
 .nav-link a:hover {
 	color:#9b9fa1;
 }
 /*** section ***/
-.page-wrap {
-	padding-top: 70px;
-	overflow:hidden;
-}
+
 .page-section {
-	padding-top: 4rem;
+	min-height: 100%;
+	padding-top: 50px;
 	padding-bottom: 2rem;
 }
 /*** home ****/
+#home .home-bg {
+	padding-top: 0px;
+}
 .home-bg {
 	background-image: url("img/LE/lifecycle-01.jpg");
 	background-repeat: no-repeat;
-	background-position: bottom right;
-	background-size: cover;
+	background-position: center right;
+	background-size:cover;
 	background-attachment:fixed;
 }
 .bd-highlight {
 	background-color: rgb(240 255 255 / 27%);
+	min-height: 400px;
 }
 .statement {
 	height: 100vh;
@@ -76,10 +82,9 @@ body {
 	padding-left: 3rem;
 }
 #about {
-	margin-top: 5rem;
-	padding-top: 0px;
-	padding-bottom: 0px;
-	background-color: #60b2ac;
+	padding-top: 70px;
+	padding-bottom: 5rem;
+	background-color:#cdcdcd;
 }
 .about-bg {
 	background-image: url("img/LE/about-bg-02.jpg");
@@ -96,8 +101,7 @@ p , .p {
 .smaller {
 	font-size: 70%;
 }
-
-/*****Swiper CSS Styles/Size**/
+/*****Swiper CSS Styles/Size***/
 .swiper-button-next,
 .swiper-button-prev {
 	color:#55909f;
@@ -123,21 +127,29 @@ p , .p {
     z-index: 1;
     transform: scale(1.5);
 }
-/* Small devices (landscape phones, 576px and up)
-@media (min-width: 576px) { ...	}
-
-/* Medium devices (tablets, 768px and up)
-@media (min-width: 768px) { ... }*/
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) { 
+	.page-section{
+		padding-top: 160px;
+	}
+	body {
+		padding-top: 0px;
+	}
+}
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) { 
+	page-section {
+		padding-top: 0px;
+	}  }
 
 /* Large devices (desktops, 992px and up)
 @media (min-width: 992px) { ... }*/
 
- /*X-Large devices (large desktops, 1200px and up)
-@media (min-width: 1200px) { ... }*/
-
-/*XX-Large devices (larger desktops, 1400px and up)*/
+ /*X-Large devices (large desktops, 1200px and up)*/
 @media (min-width: 1200px) { 
-	.contain{
+	.container, .container-fluid{
 		max-width:75%;
-	}
+	} 
 }
+/*XX-Large devices (larger desktops, 1400px and up)
+@media (min-width: 1200px) {...}*/
