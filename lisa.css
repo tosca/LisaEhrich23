@@ -127,21 +127,12 @@ p , .p {
     z-index: 1;
     transform: scale(1.5);
 }
-/*Small devices (landscape phones, 576px and up)*/
-@media (min-width: 576px) { 
-	.page-section{
-		padding-top: 160px;
-	}
-	body {
-		padding-top: 0px;
-	}
-}
-/* Medium devices (tablets, 768px and up)*/
+/*Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) { 	
+}*/
+/* Medium devices (tablets, 768px and up)
 @media (min-width: 768px) { 
-	page-section {
-		padding-top: 0px;
-	}  }
-
+ }*/
 /* Large devices (desktops, 992px and up)
 @media (min-width: 992px) { ... }*/
 
