@@ -13,7 +13,7 @@ body {
 	margin-right: auto;
 }
 .bg-grey {
-	background-color: #e7e7e7;
+	background-color: #ececec;
 }
 .bg-blue {
 	background-color: #becad8;
@@ -131,17 +131,20 @@ p , .p {
 /*Small devices (landscape phones, 576px and up)
 @media (min-width: 576px) { 	
 }*/
-/* Medium devices (tablets, 768px and up)
+/*Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px) { 
- }*/
+	.page-section {
+		padding-top: 20px;
+		}
+}
 /* Large devices (desktops, 992px and up)
 @media (min-width: 992px) { ... }*/
 
- /*X-Large devices (large desktops, 1200px and up)*/
+ /*X-Large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) { 
 	.container, .container-fluid{
 		max-width:75%;
-	} 
+	} */
 }
 /*XX-Large devices (larger desktops, 1400px and up)
 @media (min-width: 1200px) {...}*/
