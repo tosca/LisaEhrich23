@@ -27,9 +27,6 @@ body {
 .white {
 	color: #cdcdcd;
 }
-.py-5 {
-	padding-top: 4rem!important;
-}
 .project-author {
 	font-size:small;
 }
@@ -44,7 +41,7 @@ body {
 .nav-link {
 	font-family: 'Julius Sans One', 'Open Sans', sans-serif;
 	color: #7cb5b1;
-	font-size: 18px;
+	font-size: 17px;
 	font-weight: 700;
 }
 
@@ -55,8 +52,8 @@ body {
 
 .page-section {
 	min-height: 100%;
-	padding-top: 50px;
-	padding-bottom: 2rem;
+	padding-top: 40px;
+	padding-bottom: 1rem;
 }
 /*** home ****/
 #home .home-bg {
@@ -73,7 +70,7 @@ body {
 .bd-highlight {
 	background-color: rgb(240 255 255 / 27%);
 	min-height: 400px;
-	padding-left:40%;
+	padding-left: 30%;
 	font-weight: 500;
 }
 .statement {
@@ -102,7 +99,7 @@ p, .p {
 	line-height: 1.5;
 }
 .smaller {
-	font-size: 70%;
+	font-size: 80%;
 }
 /*****Swiper CSS Styles/Size***/
 .swiper-button-next,
@@ -141,14 +138,13 @@ p, .p {
 	background: rgba(0, 0, 0, 0.2);
   }
 
-  .swiper-pagination-bullet-active {
-	color: #fff;
-	background: #81cdc5;
-	background: #9bcfc7;
-	background: #8fcdc4;
-	background: #7cb3b5;
-	background: #7cb5b1;
-	}
+.swiper-pagination-bullet-active {
+color: #fff;
+background: #9bcfc7;
+background: #8fcdc4;
+background: #7cb3b5;
+background: #7cb5b1;
+}
 /*Small devices (landscape phones, 576px and up)
 @media (min-width: 576px) { 	
 }*/
