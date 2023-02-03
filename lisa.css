@@ -19,7 +19,7 @@ body {
 	background-color: #becad8;
 }
 .lisa {
-	color: #8abed9;
+	color: #7cb5b1;
 }
 .ehrich {
 	color: #aaaaa7;
@@ -43,7 +43,7 @@ body {
 }
 .nav-link {
 	font-family: 'Julius Sans One', 'Open Sans', sans-serif;
-	color: #8abed9;
+	color: #7cb5b1;
 	font-size: 18px;
 	font-weight: 700;
 }
@@ -143,8 +143,12 @@ p, .p {
 
   .swiper-pagination-bullet-active {
 	color: #fff;
-	background: #8abed9;
-  }
+	background: #81cdc5;
+	background: #9bcfc7;
+	background: #8fcdc4;
+	background: #7cb3b5;
+	background: #7cb5b1;
+	}
 /*Small devices (landscape phones, 576px and up)
 @media (min-width: 576px) { 	
 }*/
