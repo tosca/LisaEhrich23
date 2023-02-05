@@ -88,11 +88,8 @@ body {
 	padding-bottom: 5rem;
 	background-color:#cdcdcd;
 }
-.about-bg {
-	background-image: url("img/LE/about-bg-02.jpg");
-	background-repeat: no-repeat;
-	background-position: center center;
-	background-size: cover;
+.teach-size {
+	max-width: 50%;
 }
 p, .p {
 	font-family: 'Open Sans', sans-serif;
