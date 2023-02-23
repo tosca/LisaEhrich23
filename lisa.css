@@ -41,7 +41,7 @@ body {
 .nav-link {
 	font-family: 'Julius Sans One', 'Open Sans', sans-serif;
 	color: #7cb5b1;
-	font-size: 17px;
+	font-size: 16px;
 	font-weight: 700;
 }
 
@@ -86,7 +86,6 @@ body {
 #about {
 	padding-top: 70px;
 	padding-bottom: 5rem;
-	background-color:#cdcdcd;
 }
 .teach-size {
 	max-width: 50%;
