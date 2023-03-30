@@ -49,6 +49,7 @@ hr {
 	width: 70%;
 	height: 4px;
 	margin-left: auto;
+	margin-right: auto;
 	background-color:#6c6e6e;
 	color: #6c6e6e;
 	border: 0 none;
@@ -70,6 +71,9 @@ hr {
 	padding-left: 35%;
 	font-weight: 500;
 }
+.home-sig {
+	max-width: 150px;
+}
 .statement {
 	height: 100vh;
 	text-align: center;
@@ -90,9 +94,6 @@ p, .p {
 }
 .smaller {
 	font-size: 80%;
-}
-.pub-caption {
-	
 }
 .ehrich {
 	max-width: 200px;
