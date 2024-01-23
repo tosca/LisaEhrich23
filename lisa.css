@@ -41,7 +41,7 @@ body {
 }
 /*** section ***/
 .page-section {
-	padding-top: 7rem;
+	padding-top: 6.5rem;
 	padding-bottom: 1rem;
 	padding-left: 0;
 }
@@ -59,20 +59,22 @@ hr {
 /*** home ****/
 .home-bg {
 	width: 100%;
-	background-image: url("img/LE/fall-install-home.jpg");
+	background-image: url("img/7porcelain-lights.jpg");
 	background-repeat: no-repeat;
 	background-position: top center;
-	background-size:cover;
+	background-size:contain;
 	background-attachment: local;
+
 }
 .home-text {
-	background-color: rgb(240 255 255 / 27%);
+	color:#fff;
+	color: #d3d5d6;
 	min-height: 400px;
 	padding-left: 35%;
 	font-weight: 500;
 }
 .home-sig {
-	max-width: 150px;
+	max-width: 120px;
 }
 .statement {
 	height: 100vh;
