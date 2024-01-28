@@ -1,19 +1,11 @@
-html {
-	height: 100vh;	
-}
 body {
-	background-color: #fff;
-	height: 100%;
-	width: 100%;
-	position: relative;
-	display: block;
 	font-family: "Quicksand", sans-serif;
-	color: #898b8d;
+	color: #6a6b6b;
 	overflow-x: hidden;
 }
 .bg-grey {
-	background-color: #edeef0;
-	color: #898b8d;
+	background-color: #f0f2f2;
+	color: #6a6b6b;
 }
 .white {
 	color: #f3f3f3;
@@ -28,7 +20,7 @@ body {
 .navbar-brand {
 	font-size: 2rem;
 	color:#898b8d;
-	letter-spacing: 0.5rem;
+	letter-spacing: 0.7rem;
 }
 .navbar-nav .nav-link {
 	font-family: 'Julius Sans One','Open Sans',sans-serif;
@@ -41,7 +33,7 @@ body {
 }
 /*** section ***/
 .page-section {
-	padding-top: 6.5rem;
+	padding-top: 6rem;
 	padding-bottom: 1rem;
 	padding-left: 0;
 }
@@ -56,26 +48,8 @@ hr {
 	margin-top: 30px;
 	margin-bottom: 30px;
 }
-/*** home ****/
-.home-bg {
-	width: 100%;
-	background-image: url("img/7porcelain-lights.jpg");
-	background-repeat: no-repeat;
-	background-position: top center;
-	background-size:contain;
-	background-attachment: local;
 
-}
-.home-text {
-	color:#fff;
-	color: #d3d5d6;
-	min-height: 400px;
-	padding-left: 35%;
-	font-weight: 500;
-}
-.home-sig {
-	max-width: 120px;
-}
+/*** home ***/
 .statement {
 	height: 100vh;
 	text-align: center;
@@ -89,7 +63,7 @@ hr {
 	padding-bottom: 5rem;
 }
 .teach-size {
-	max-width: 50%;
+	max-width: 70%;
 }
 p, .p {
 	font-family: 'Open Sans', sans-serif;	
