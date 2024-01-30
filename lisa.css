@@ -1,7 +1,7 @@
 body {
 	font-family: "Quicksand", sans-serif;
 	color: #6a6b6b;
-	overflow-x: hidden;
+	overflow: auto;
 }
 .bg-grey {
 	background-color: #f0f2f2;
@@ -63,7 +63,7 @@ hr {
 	padding-bottom: 5rem;
 }
 .teach-size {
-	width: 97%;
+	width: 90%;
 }
 p, .p {
 	font-family: 'Open Sans', sans-serif;	
