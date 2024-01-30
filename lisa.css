@@ -59,11 +59,11 @@ hr {
 	padding-left: 3rem;
 }
 #about {
-	padding-top: 70px;
+	padding-top: 90px;
 	padding-bottom: 5rem;
 }
 .teach-size {
-	max-width: 70%;
+	width: 97%;
 }
 p, .p {
 	font-family: 'Open Sans', sans-serif;	
