@@ -20,7 +20,7 @@ body {
 .navbar-brand {
 	font-size: 2rem;
 	color:#898b8d;
-	letter-spacing: 0.7rem;
+	letter-spacing: 0.6rem;
 }
 .navbar-nav .nav-link {
 	font-family: 'Julius Sans One','Open Sans',sans-serif;
@@ -33,7 +33,7 @@ body {
 }
 /*** section ***/
 .page-section {
-	padding-top: 6rem;
+	padding-top: 4rem;
 	padding-bottom: 1rem;
 	padding-left: 0;
 }
@@ -59,8 +59,9 @@ hr {
 	padding-left: 3rem;
 }
 #about {
-	padding-top: 90px;
+	/* padding-top: 90px; */
 	padding-bottom: 5rem;
+	/* background-color: #fff0e5; */
 }
 .teach-size {
 	width: 90%;
