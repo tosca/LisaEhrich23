@@ -24,7 +24,7 @@ body {
 }
 .navbar-nav .nav-link {
 	font-family: 'Julius Sans One','Open Sans',sans-serif;
-	color:#898b8d;
+	color:#6c6e6e;
 	font-size: 15px;
 	font-weight: 600;
 }
@@ -33,7 +33,7 @@ body {
 }
 /*** section ***/
 .page-section {
-	padding-top: 4rem;
+	padding-top: 5rem;
 	padding-bottom: 1rem;
 	padding-left: 0;
 }
